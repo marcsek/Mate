@@ -1,4 +1,5 @@
 _Derivatives (z angl.)_
+*Príklady: [[Derivácie - Príklady]]*
 </br>
 ### Definícia derivácie
 ---
@@ -35,7 +36,7 @@ označuje sa niekoľkými spôsobmi:
 </br>
 ### Výpočty derivacií
 ___
-Principiálne základnou technikou je výpočet priamo z definície, čiže dosadením príslušnej funkcie do definujúcej limity a výpočtom tejto limity. Tento spôsob je však zvyčajne (až na veľmi jednoduché funkcie) dosť komplikovaný a v praxi sa nepoužíva. Namiesto toho sa derivácie funkcií počítajú zo známych derivácií niekoľko [[#Elementárne funckie|základných funckií]] a jednoduchých [[#Algebraické pravidlá|algebraických pravidiel]] pre ich skladanie a ďalšie úpravy.
+Principiálne základnou technikou je výpočet priamo z definície, čiže dosadením príslušnej funkcie do definujúcej limity a výpočtom tejto limity. Tento spôsob je však zvyčajne (až na veľmi jednoduché funkcie) dosť komplikovaný a v praxi sa nepoužíva. Namiesto toho sa derivácie funkcií počítajú zo známych derivácií niekoľko [[#Elementárne funckie|základných funckií]] a jednoduchých [[#Algebraické pravidlá (pravidlá derivovania)|algebraických pravidiel]] pre ich skladanie a ďalšie úpravy.
 
 ##### Elementárne funckie
 | Elementárne funckie  | Funkcia | Derivácia |
