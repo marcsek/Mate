@@ -5,3 +5,17 @@
   border-radius: 2rem;
   border: #444444 4px solid;
 }
+
+img[alt*='center'],
+img[alt*='centre'] {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+img[alt*='half'] {
+  width: 50%;
+  height: 50%;
+}

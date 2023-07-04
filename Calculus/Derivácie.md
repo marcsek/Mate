@@ -27,7 +27,7 @@ $$\frac{dy}{dx}$$
 Neskôr sa však táto definícia ukázala ako nedostatočne presná a bola nahradená dnes najbežnejšou formou derivácie: 
 
 $$
-f'(x)=\lim_{h \to \infty}\frac{f(x + h) - f(x)}{h}
+f'(x)=\lim_{h \to 0}\frac{f(x + h) - f(x)}{h}
 $$
 označuje sa niekoľkými spôsobmi:
 - <font size=4>$f'(x)$</font> <font size=2>_(derivácia funkcie $f$ ktorá závisí od premennej x)_</font>
@@ -67,3 +67,17 @@ Zo známych derivácií elementárnych funkcií sa derivácie zložitejších fu
 Dobré videá na odôvodnenie týchto vzťahov [Power Rule through geometry](https://youtu.be/S0_qX4VJhMQ), [Visualizing the chain rule and product rule](https://youtu.be/YG15m2VwSjA), [What's so special about Euler's number e?](https://youtu.be/m2MIpDrF7Es).
 
 Stránka na prehľad týchto vzťahov: [mathisfun.com](https://www.mathsisfun.com/calculus/derivatives-rules.html)
+</br>
+### Stupne derivacií
+---
+Deriváciou funkcie je teda opäť funkcia, ktorá však niekedy môže byť tiež diferencovateľná. Deriváciu derivácie funkce nazývame **druhá derivácia**, deriváciu druhej derivácie **tretia derivácia** atď. Tieto derivácie vyšších rádov sa zvyčajne značia $f''(x)$,$f'''(x)$, pre ešte vyššie rády skôr $f^{(3)}(x)$, $f^{(4)}(x)$ atď. Tiež sa može použiť napr. $\frac{d^3y}{dx^3}$
+
+```desmos-graph 
+grid=false
+height=300
+left=-5; right=5
+---
+ f(x)=2\frac{3e^x}{e^x+1}|-5<x<5|black
+ f''(x)|#8B6CEF
+```
+Na tomto obrázku si môžeme pod funckiou v čiernej farbe predstaviť posunutie auta. V tom prípade by druhá derivácia tejto funckie bola rýchlosť auta a tretia derivácia (vo fialovom) by predstavovala zrýchlenie auta.
